@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Touch the Numbers</title>
+</head>
+<body onload="init(16)">
+    <div class="level"> Choose Level: <br>
+        <button onclick="chooseLevel(16)">Easy (16)</button>
+        <button onclick="chooseLevel(25)">Medium (25)</button>
+        <button onclick="chooseLevel(36)">Hard (36)</button>
+    </div>
+    <div class="header">
+        <div class="player-name">player1</div>
+        <div class="game-time">Timer: <br> 00:00:00</div>
+        <div class="next-number">Next Number: <br> 1</div>   
+    </div>
+    <table class="table">
+        <tr>  <td onclick="markNum(this)" style> 8</td><td> 9</td><td> 3</td><td> 13</td>  </tr>
+        <tr>  <td> 6</td><td> 11</td><td> 4</td><td> 1</td>  </tr>
+        <tr>  <td> 12</td><td> 0</td><td> 14</td><td> 2</td>  </tr>
+        <tr>  <td> 7</td><td> 15</td><td> 10</td><td> 5</td>  </tr>
+    </table>
+
+    <button class="new-game" onclick="resetGame()">New Game</button>
+
+    
+<script src="/js/mainnn.js"></script>
+</body>
+
+</html>

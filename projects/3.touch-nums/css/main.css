@@ -1,0 +1,66 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+    background-color: blue;
+    text-align: center;
+    
+}
+
+.player-name{
+    border:10px solid;
+    margin: 50px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: ;
+}
+
+.next-number {
+    border:10px solid;
+    margin: 50px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: ;
+    /* float: left; */
+}
+.game-time {
+    border:10px solid;
+    margin: 50px;
+    width: 250px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: blue;
+    border-radius: ;
+    /* float: right; */
+}
+
+.table{
+    text-align: center;
+    margin: auto;
+    border-radius: 15%;
+    opacity: ;
+    
+}
+
+.table td {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: gold;
+    border-radius: 30%;
+}
